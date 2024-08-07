@@ -1,0 +1,41 @@
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.price-container {
+  display: flex;
+  margin: 0;
+  width: 100%; /* Ensure it takes full width */
+}
+
+.price-label {
+  color: #616e7c;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.price {
+  color: #171f46;
+  font-size: 26px;
+  padding-left: 5px;
+}
+
+.total-items-label {
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: left;
+  width: 100%; /* Ensure it takes full width */
+  color: #616e7c;
+}
+
+.checkout-button {
+  background-color: #0b69ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%; /* Ensure it takes full width */
+  border-radius: 3px;
+}
